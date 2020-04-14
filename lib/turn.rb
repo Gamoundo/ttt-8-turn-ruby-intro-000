@@ -7,7 +7,7 @@ integer = input_to_index(input)
    else valid_move(board, integer) == false
      puts "Please enter 1-9:"
    end
-     
+
 end
 
 def valid_move?(board, index)
