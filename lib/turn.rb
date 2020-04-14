@@ -5,6 +5,7 @@ input = gets.strip
 integer = input_to_index(input)
    if valid_move?(board, integer) == true
      move(board, integer)
+     display_board(board)
    else valid_move?(board, integer) == false
      turn(board)
    end
