@@ -6,7 +6,7 @@ integer = input_to_index(input)
    if valid_move?(board, integer) == true
      move(board, integer)
    else valid_move?(board, integer) == false
-     puts "Please enter 1-9:"
+     turn(board)
    end
 
 end
